@@ -1,0 +1,23 @@
+@media (max-width: 1150px) {
+  .nav-bar .container .wrapper .nav-links,
+  .nav-bar .container .wrapper .subscribe-btn {
+    display: none;
+  }
+
+  .menu-bar{
+    display:block;
+  }
+
+    .home .container .wrapper{
+      /* flex-direction: column; */
+    }
+  .home .container .wrapper .left-side{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .home .container .wrapper .right-side{
+    width:100%;
+  }
+}
