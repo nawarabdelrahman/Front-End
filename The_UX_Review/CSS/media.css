@@ -1,0 +1,337 @@
+/* ======================================
+            1200px
+====================================== */
+
+@media screen and (max-width: 1200px) {
+
+  /* ========== Navbar ========== */
+
+  .header-section .inner ul,
+  .header-section .inner .subscribe,
+  .header-section .subscribe {
+    display: none;
+  }
+
+  .header-section .inner .list-icon,
+  .header-section .list-icon {
+    display: block;
+  }
+
+  .header-section .inner .list-icon {
+    font-size: 30px;
+    padding: 20px;
+    text-shadow: 3px 3px 0 #000;
+    cursor: pointer;
+  }
+
+  /* ========== Hero ========== */
+
+  .header-section .hero-section .container,
+  .hero-section .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 50px;
+  }
+
+  .hero-section .left-side,
+  .hero-section .right-side {
+    width: 100%;
+  }
+
+  .hero-section .left-side .content h1 {
+    font-size: 50px;
+    line-height: 1.2;
+  }
+
+  .hero-section .left-side .content p {
+    width: 100%;
+    max-width: 700px;
+    margin: 20px auto;
+  }
+
+  .hero-section .left-side .btn,
+  .hero-section .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .hero-section .right-side {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+
+  .hero-section .right-side .img-home {
+    position: relative;
+  }
+
+  .hero-section .right-side .img-home img,
+  .hero-section .right-side img {
+    width: 100%;
+    max-width: 550px;
+    height: auto;
+    margin-bottom: 30px;
+  }
+
+  .hero-section .right-side .img-home span {
+    position: absolute;
+    top: 15px;
+    right: -10px;
+  }
+
+  .hero-section .container .shape {
+    display: none;
+  }
+
+  /* ========== Latest Articles ========== */
+
+  .latest-articles .container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .latest-articles .left-side,
+  .latest-articles .right-side {
+    width: 100%;
+    flex: 100%;
+  }
+
+  .latest-articles .left-side .title,
+  .latest-articles .title {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+  }
+
+  .latest-articles .left-side .title h2 {
+    font-size: 40px;
+  }
+
+  .latest-articles .wrapper {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+  }
+
+  .latest-articles .wrapper .img-articles,
+  .latest-articles .wrapper .content,
+  .latest-articles .img-articles {
+    width: 100%;
+  }
+
+  .latest-articles .wrapper .img-articles img {
+    width: 100%;
+    height: auto;
+  }
+
+  .latest-articles .wrapper .img-articles span {
+    top: 10px;
+    right: 10px;
+  }
+
+  .latest-articles .wrapper .content .font-awesome {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+
+  .latest-articles .left-side .btn {
+    margin: 20px auto 0;
+  }
+
+  .latest-articles .right-side .item h3 {
+    font-size: 28px;
+  }
+
+  .latest-articles .right-side .item-content {
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .latest-articles .right-side .item-content .content h4 {
+    font-size: 22px;
+  }
+
+  .latest-articles .right-side .categories {
+    margin-top: 30px;
+  }
+
+  .latest-articles .right-side .categories .head-fs,
+  .latest-articles .right-side .categories .wrapper span {
+    text-align: center;
+  }
+
+  /* ========== Authors ========== */
+
+  .authors .cards {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .authors .card {
+    flex: 0 0 calc(50% - 15px);
+  }
+
+  /* ========== Community ========== */
+
+  .community .community-wrapper {
+    flex-direction: column;
+  }
+
+  /* ========== Footer ========== */
+
+  .footer .footer-wrapper {
+    flex-wrap: wrap;
+  }
+}
+
+/* ======================================
+            992px
+====================================== */
+
+@media screen and (max-width: 992px) {
+
+  .authors .cards {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .authors .card {
+    width: 48%;
+  }
+}
+
+/* ======================================
+            768px
+====================================== */
+
+@media screen and (max-width: 768px) {
+
+  .container {
+    width: 92%;
+  }
+
+  /* Hero */
+
+  .hero-section .left-side h1 span {
+    font-size: 50px;
+  }
+
+  .hero-section .btn button,
+  .latest-articles .left-side .btn {
+    width: 100%;
+    justify-content: center;
+  }
+
+  /* Latest Articles */
+
+  .latest-articles .left-side .title h2 {
+    font-size: 32px;
+  }
+
+  .latest-articles .wrapper {
+    padding: 15px;
+  }
+
+  .latest-articles .wrapper .content h3,
+  .latest-articles .content h3 {
+    font-size: 22px;
+  }
+
+  .latest-articles .wrapper .content p {
+    font-size: 16px;
+  }
+
+  .latest-articles .wrapper .content .font-awesome {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .latest-articles .font-awesome {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .latest-articles .right-side .item-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .latest-articles .right-side .item-content .number {
+    font-size: 32px;
+  }
+
+  .latest-articles .right-side .categories .wrapper span {
+    font-size: 15px;
+  }
+
+  /* Titles */
+
+  .community .title h2,
+  .authors .title h2,
+  .latest-articles .title h2 {
+    font-size: 38px;
+  }
+
+  /* Authors */
+
+  .authors .card {
+    width: 100%;
+    flex: 100%;
+  }
+
+  /* Footer */
+
+  .footer .footer-wrapper {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer-social .icons {
+    justify-content: center;
+  }
+}
+
+/* ======================================
+            576px
+====================================== */
+
+@media screen and (max-width: 576px) {
+
+  .latest-articles .left-side .title h2 {
+    font-size: 28px;
+  }
+
+  .latest-articles .wrapper {
+    padding: 15px;
+  }
+
+  .latest-articles .wrapper .content .tech {
+    font-size: 14px;
+  }
+
+  .latest-articles .wrapper .content h3 {
+    font-size: 20px;
+  }
+
+  .latest-articles .wrapper .content p {
+    font-size: 15px;
+    line-height: 1.6;
+  }
+
+  .latest-articles .right-side .item h3,
+  .latest-articles .right-side .categories .head-fs {
+    font-size: 24px;
+  }
+}
